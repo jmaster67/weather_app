@@ -2,16 +2,27 @@
 
 <div id="blackMain"></div>
 <div id="textMain">Rain <span>or Shine</span></div>
-<div id="subTextMain"><strong>Weather-based What-to-Wear Advisor</strong><br>
+<div id="subTextWeather">
  
-	    <%= @weather["current_observation"]["display_location"]["full"]%></br>
-	    <%= @weather["current_observation"]["temp_f"]%> °F<br>
-	    Humidity: <%= @weather["current_observation"]["relative_humidity"]%>
-	    <%= @weather["current_observation"]["weather"]%><br>
-	    <img src="<%= @weather["current_observation"]["icon_url"]%>">
+	    <div id="location"><%= @weather["current_observation"]["display_location"]["full"]%></div></br>
+
+	    
+	    <div id="center">
+	    <% if @weather["current_observation"]["icon"] == "cloudy" %>
+	    <span id="weather_icons"><%= image_tag "sunny-icon.png" %></span>
+	    <%end%>
+	    <span id="temp"><%= @weather["current_observation"]["temp_f"]%> °F</span>
 	    
 
+	    Humidity: <%= @weather["current_observation"]["relative_humidity"]%><br>
+	    <%= @weather["current_observation"]["weather"]%><br>
+	    </div>
 </div>
+
+	    	
+	    
+
+
 
 <!-- <div id="locationText">Tell us where you are located</div>
 
