@@ -4,7 +4,12 @@
 <div id="textMain">Rain <span>or Shine</span></div>
 <div id="subTextMain"><strong>Weather-based What-to-Wear Advisor</strong><br>
  
-	    <%= @weather["current_observation"]["temp_f"]%> °F at the moment.
+	    <%= @weather["current_observation"]["display_location"]["full"]%></br>
+	    <%= @weather["current_observation"]["temp_f"]%> °F<br>
+	    Humidity: <%= @weather["current_observation"]["relative_humidity"]%>
+	    <%= @weather["current_observation"]["weather"]%><br>
+	    <img src="<%= @weather["current_observation"]["icon_url"]%>">
+	    
 
 </div>
 
