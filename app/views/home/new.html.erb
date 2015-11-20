@@ -8,15 +8,76 @@
 
 	    
 	    <div id="center">
-	    <% if @weather["current_observation"]["icon"] == "cloudy" %>
-	    <span id="weather_icons"><%= image_tag "sunny-icon.png" %></span>
-	    <%end%>
-	    <span id="temp"><%= @weather["current_observation"]["temp_f"]%> °F</span>
+
+	    <% if @weather["current_observation"]["icon"] == "cloudy" || 
+    		@weather["current_observation"]["icon"] == "partlycloudy" || 
+    		@weather["current_observation"]["icon"] == "mostlycloudy"%>
+      		<span id="weather_icons"><%= image_tag "cloudy-icon.png" %></span>
+      	<%end%>
+
+	    <!-- sunny -->
+
+	    <% if @weather["current_observation"]["icon"] == "sunny" || 
+	    	@weather["current_observation"]["icon"] == "mostlysunny" ||  
+	    	@weather["current_observation"]["icon"] == "partlysunny" || 
+	    	@weather["current_observation"]["icon"] == "clear" %>
+       		<span id="weather_icons"><%= image_tag "sunny-icon.png" %></span>
+       	<%end%>
 	    
 
-	    Humidity: <%= @weather["current_observation"]["relative_humidity"]%><br>
+		<!-- sleet / freezing rain -->
+
+	​
+		<% if @weather["current_observation"]["icon"] == "chancesleet" || 
+			@weather["current_observation"]["icon"] == "sleet" || 
+			@weather["current_observation"]["icon"] == "freezingrain" %>
+		    <span id="weather_icons"><%= image_tag "sleet-icon.png" %></span>
+		<%end%>
+
+		​
+		<!-- thuderstroms -->
+
+		​
+		<% if @weather["current_observation"]["icon"] == "tstorms" || 
+			@weather["current_observation"]["icon"] == "chancetstorms" %>
+		    <span id="weather_icons"><%= image_tag "thunderstorm-icon.png" %></span>
+		<%end%>
+
+		​ 
+		<!-- snow -->
+
+		​
+		<% if @weather["current_observation"]["icon"] == "flurries" || 
+			@weather["current_observation"]["icon"] == "chancesnow" || 
+			@weather["current_observation"]["icon"] == "snow" || 
+			@weather["current_observation"]["icon"] == "chanceflurries" %>
+		    <span id="weather_icons"><%= image_tag "snow-icon.png" %></span>
+		<%end%>
+
+		​
+		<!-- fog/hazy -->
+
+		​
+		<% if @weather["current_observation"]["icon"] == "fog" || 
+			@weather["current_observation"]["icon"] == "hazy" %>
+		    <span id="weather_icons"><%= image_tag "fog-icon.png" %></span>
+		<%end%>
+
+		​
+		<!-- rain -->
+
+		​
+		<% if @weather["current_observation"]["icon"] == "rain" || 
+			@weather["current_observation"]["icon"] == "chancerain" %>
+		    <span id="weather_icons"><%= image_tag "rain-icon.png" %></span>
+		<%end%>
+
+		<span id="temp"><%= @weather["current_observation"]["temp_f"]%>°F</span><br>
+
+		Humidity: <%= @weather["current_observation"]["relative_humidity"]%><br>
 	    <%= @weather["current_observation"]["weather"]%><br>
 	    </div>
+	   
 </div>
 
 	    	
