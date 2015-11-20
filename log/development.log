@@ -11877,3 +11877,2718 @@ Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d5604
 
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-19 21:18:54 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 10:59:58 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (261.8ms)
+Completed 200 OK in 2559ms (Views: 1043.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:00:02 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:00:02 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:00:02 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:00:02 -0500
+
+
+Started GET "/assets/application.self-72f12f413c79fb559093ba765acff6819395b506edc3c422f19ab26e3ba7591c.css?body=1" for ::1 at 2015-11-20 11:00:02 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:00:02 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:00:02 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:00:02 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:00:02 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:00:02 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:00:02 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:00:02 -0500
+
+
+Started GET "/assets/sunny-icon-034110ead74ffe5498d86962e79b32bcdde8bb92198f044fdceabf085ed949b5.png" for ::1 at 2015-11-20 11:00:02 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:04:32 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 812ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/taomaxim/Desktop/homework/weather_app/app/views/home/new.html.erb:8: unknown type of %string
+...eeze;@output_buffer.append=(%weather["current_observation"][...
+...                               ^
+/Users/taomaxim/Desktop/homework/weather_app/app/views/home/new.html.erb:8: syntax error, unexpected end-of-input
+...eeze;@output_buffer.append=(%weather["current_observation"][...
+...                               ^):
+  app/views/home/new.html.erb:8: unknown type of %string
+  app/views/home/new.html.erb:8: syntax error, unexpected end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (107.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (115.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (514.1ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:04:50 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (84.0ms)
+Completed 200 OK in 955ms (Views: 286.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:04:51 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:04:51 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:04:51 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:04:51 -0500
+
+
+Started GET "/assets/application.self-72f12f413c79fb559093ba765acff6819395b506edc3c422f19ab26e3ba7591c.css?body=1" for ::1 at 2015-11-20 11:04:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:04:51 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:04:51 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:04:51 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:04:51 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:04:51 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:04:51 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:04:51 -0500
+
+
+Started GET "/assets/sunny-icon-034110ead74ffe5498d86962e79b32bcdde8bb92198f044fdceabf085ed949b5.png" for ::1 at 2015-11-20 11:04:51 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:06:45 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (71.5ms)
+Completed 200 OK in 1227ms (Views: 465.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:06:46 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:06:46 -0500
+
+
+Started GET "/assets/application.self-f3027d7324b188c92302da475a7219034aef7873c1c2c2bba32b4764c9de8241.css?body=1" for ::1 at 2015-11-20 11:06:46 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:06:46 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:06:46 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:06:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:06:46 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:06:46 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:06:46 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:06:46 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:06:46 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:06:46 -0500
+
+
+Started GET "/assets/sunny-icon-034110ead74ffe5498d86962e79b32bcdde8bb92198f044fdceabf085ed949b5.png" for ::1 at 2015-11-20 11:06:46 -0500
+
+
+Started GET "/assets/cloud.jpg" for ::1 at 2015-11-20 11:06:46 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:07:14 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 1567ms (Views: 409.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-43c26f2b2faed36102ded76718eb9e6ffa774dd31c3c0f25c89eb9fdf8001e21.css?body=1" for ::1 at 2015-11-20 11:07:15 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:07:16 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:07:16 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:07:16 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:07:16 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:07:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:07:16 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:07:16 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:07:16 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:07:16 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:07:16 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:07:16 -0500
+
+
+Started GET "/assets/sunny-icon-034110ead74ffe5498d86962e79b32bcdde8bb92198f044fdceabf085ed949b5.png" for ::1 at 2015-11-20 11:07:16 -0500
+
+
+Started GET "/assets/cloud.jpg" for ::1 at 2015-11-20 11:07:16 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:07:25 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 1071ms (Views: 390.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 11:07:26 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:07:26 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:07:26 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:07:26 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:07:26 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:07:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:07:26 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:07:26 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:07:26 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:07:26 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:07:26 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:07:26 -0500
+
+
+Started GET "/assets/sunny-icon-034110ead74ffe5498d86962e79b32bcdde8bb92198f044fdceabf085ed949b5.png" for ::1 at 2015-11-20 11:07:26 -0500
+
+
+Started GET "/assets/cloud.jpg" for ::1 at 2015-11-20 11:07:26 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:08:37 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 917ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:08:37 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:08:37 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 11:08:37 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:08:38 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:08:38 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:08:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:08:38 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:08:38 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:08:38 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:08:38 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:08:38 -0500
+
+
+Started GET "/images/cloudy-icon.png" for ::1 at 2015-11-20 11:08:38 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/cloudy-icon.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (239.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (334.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (106.1ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:08:39 -0500
+
+
+Started GET "/images/cloudy-icon.png" for ::1 at 2015-11-20 11:08:39 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/cloudy-icon.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (114.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (66.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (156.8ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:09:17 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 1177ms (Views: 88.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:09:18 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:09:18 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:09:18 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:09:18 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 11:09:18 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:09:18 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:09:18 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:09:18 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:09:18 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:09:18 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:09:18 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:09:18 -0500
+
+
+Started GET "/images/cloudy-icon.png" for ::1 at 2015-11-20 11:09:18 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/cloudy-icon.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (102.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (72.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (141.7ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:11:01 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (66.2ms)
+Completed 200 OK in 1044ms (Views: 267.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:11:02 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:11:02 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:11:02 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:11:02 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:11:02 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 11:11:02 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:11:02 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:11:02 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:11:02 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:11:02 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:11:02 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:11:02 -0500
+
+
+Started GET "/assets/cloudy-icon-502d0adf76efcb114dec050d892bd475bfc5343e0f5f6875a432811cf0119bac.png" for ::1 at 2015-11-20 11:11:02 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:11:51 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 617ms (Views: 92.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:11:51 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:11:51 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:11:51 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:11:51 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:11:51 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 11:11:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:11:51 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:11:51 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:11:51 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:11:51 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:11:51 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:11:51 -0500
+
+
+Started GET "/assets/cloudy-icon-502d0adf76efcb114dec050d892bd475bfc5343e0f5f6875a432811cf0119bac.png" for ::1 at 2015-11-20 11:11:51 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:13:42 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 1488ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4: <div id="textMain">Rain <span>or Shine</span></div>
+    5: <div id="subTextWeather">
+    6:  
+    7: 	    <div id="location"><%= @weather["current_observation"]["display_location"]["full"]%></div></br>
+    8: 	    <div id="time"><%=@weather["current_observation"]["observation_time"]%> Local Time</div>
+    9: 
+   10: 	    
+  app/views/home/new.html.erb:7:in `_app_views_home_new_html_erb___3207648856401658539_70151105525560'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (60.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (48.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (104.4ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:14:25 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 1585ms (Views: 98.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:14:26 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:14:26 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 11:14:26 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:14:26 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:14:26 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:14:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:14:26 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:14:26 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:14:26 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:14:26 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:14:26 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:14:26 -0500
+
+
+Started GET "/assets/cloudy-icon-502d0adf76efcb114dec050d892bd475bfc5343e0f5f6875a432811cf0119bac.png" for ::1 at 2015-11-20 11:14:26 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:15:01 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (11.7ms)
+Completed 500 Internal Server Error in 424ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4: <div id="textMain">Rain <span>or Shine</span></div>
+    5: <div id="subTextWeather">
+    6:  
+    7: 	    <div id="location"><%= @weather["current_observation"]["display_location"]["full"]%></div></br>
+    8: 	    <div id="time"><%=@weather["current_observation"]["observation_time"]%> Local Time</div>
+    9: 
+   10: 	    
+  app/views/home/new.html.erb:7:in `_app_views_home_new_html_erb___3207648856401658539_70151105525560'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (71.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (48.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (107.9ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:15:29 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (67.3ms)
+Completed 200 OK in 867ms (Views: 145.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:15:30 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:15:30 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:15:30 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:15:30 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:15:30 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 11:15:30 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:15:30 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:15:30 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:15:30 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:15:30 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:15:30 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:15:30 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 11:15:30 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:25:30 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 908ms (Views: 94.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:25:31 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:25:31 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:25:31 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:25:31 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:25:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:25:31 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 11:25:31 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:25:31 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:25:31 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:25:31 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:25:31 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:25:31 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 11:25:31 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:26:08 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 798ms (Views: 87.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:26:09 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:26:09 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:26:09 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 11:26:09 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:26:09 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:26:09 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:26:09 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:26:09 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:26:09 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:26:09 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:26:09 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:26:09 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 11:26:09 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:36:37 -0500
+
+SyntaxError (/Users/taomaxim/Desktop/homework/weather_app/app/controllers/home_controller.rb:15: syntax error, unexpected keyword_end
+/Users/taomaxim/Desktop/homework/weather_app/app/controllers/home_controller.rb:23: syntax error, unexpected end-of-input, expecting keyword_end
+...nditions/q/IA/Cedar_Rapids.json
+...                               ^):
+  app/controllers/home_controller.rb:15: syntax error, unexpected keyword_end
+  app/controllers/home_controller.rb:23: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (196.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (426.9ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:36:51 -0500
+
+SyntaxError (/Users/taomaxim/Desktop/homework/weather_app/app/controllers/home_controller.rb:23: syntax error, unexpected end-of-input, expecting keyword_end
+...nditions/q/IA/Cedar_Rapids.json
+...                               ^):
+  app/controllers/home_controller.rb:23: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (46.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (112.3ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:37:16 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (17.1ms)
+Completed 500 Internal Server Error in 830ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    79: 	    
+    80: 	    </div>
+    81: 
+    82: 	    <%=form_for @new_location, url: {action: :search} do |f|%>
+    83: 			<%=f.label :city, "City" %>
+    84: 			<%=f.text_field :city %>
+    85: 			<%=f.label :state, "State or Country" %>
+  app/views/home/new.html.erb:82:in `_app_views_home_new_html_erb___3207648856401658539_70151127405640'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (45.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (108.8ms)
+  [1m[36m (3.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (11.7ms)[0m  select sqlite_version(*)
+  [1m[36m (16.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateLocations (20151120164558)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "locations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "city" varchar, "state" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (12.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151120164558"]]
+  [1m[35m (3.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:47:12 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (268.2ms)
+Completed 500 Internal Server Error in 1094ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (No route matches {:action=>"search", :controller=>"home"}):
+    79: 	    
+    80: 	    </div>
+    81: 
+    82: 	    <%=form_for @new_location, url: {action: :search} do |f|%>
+    83: 			<%=f.label :city, "City" %>
+    84: 			<%=f.text_field :city %>
+    85: 			<%=f.label :state, "State or Country" %>
+  app/views/home/new.html.erb:82:in `_app_views_home_new_html_erb___4084120141018182127_70216740394480'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (64.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (142.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:49:25 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (153.7ms)
+Completed 200 OK in 1562ms (Views: 527.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:49:27 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:49:27 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:49:27 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:49:27 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:49:27 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:49:27 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 11:49:27 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:49:27 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:49:27 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:49:27 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 11:49:27 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:49:27 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:49:27 -0500
+
+
+Started POST "/search" for ::1 at 2015-11-20 11:49:39 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tjuGXe5Is4iih1ur/PHgGnkp0dKVnlPADVI79e4NYwmLGy+7S4UJo8jrRoFe75KT98DJhYIPIMpqUBVz3iqlzg==", "location"=>{"city"=>"", "state"=>""}, "commit"=>"Search"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.wunderground.com/api/ed4b5bf53486878a/geolookup/conditions/q/#<Location:0x007fb93991b848>.json):
+  app/controllers/home_controller.rb:21:in `search'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (48.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (108.4ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 11:59:13 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (202.1ms)
+Completed 200 OK in 1710ms (Views: 438.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 11:59:15 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 11:59:15 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 11:59:15 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 11:59:15 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 11:59:15 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 11:59:15 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 11:59:15 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 11:59:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 11:59:16 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 11:59:16 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 11:59:16 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 11:59:16 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 11:59:16 -0500
+
+
+Started POST "/search" for ::1 at 2015-11-20 11:59:33 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HNGuGTLnEQbngPL7GMbnljWfksvZgbjiSHXC01fvppAh8Qf/lyqrLY3s79G62JUfu3aKnM4Qy+gvd+xVZ8hgVw==", "location"=>{"city"=>"New York", "state"=>"NY"}, "commit"=>"Search"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `capitalize' for nil:NilClass):
+  app/controllers/home_controller.rb:19:in `search'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (50.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (122.1ms)
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:00:00 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HNGuGTLnEQbngPL7GMbnljWfksvZgbjiSHXC01fvppAh8Qf/lyqrLY3s79G62JUfu3aKnM4Qy+gvd+xVZ8hgVw==", "location"=>{"city"=>"New York", "state"=>"NY"}, "commit"=>"Search"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.5ms)
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/home_controller.rb:19:in `search'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (109.7ms)
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:06:29 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HNGuGTLnEQbngPL7GMbnljWfksvZgbjiSHXC01fvppAh8Qf/lyqrLY3s79G62JUfu3aKnM4Qy+gvd+xVZ8hgVw==", "location"=>{"city"=>"New York", "state"=>"NY"}, "commit"=>"Search"}
+Redirected to 
+Completed 500 Internal Server Error in 548ms (ActiveRecord: 0.5ms)
+
+NoMethodError (undefined method `new_url' for #<HomeController:0x007fe509add0e0>):
+  app/controllers/home_controller.rb:22:in `search'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (50.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (110.0ms)
+
+
+Started GET "/sear" for ::1 at 2015-11-20 12:06:52 -0500
+
+ActionController::RoutingError (No route matches [GET] "/sear"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (93.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (172.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (113.8ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:07:16 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (111.4ms)
+Completed 200 OK in 988ms (Views: 284.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:07:17 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 12:07:17 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 12:07:17 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 12:07:17 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 12:07:17 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 12:07:17 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:07:17 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:07:17 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:07:17 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 12:07:17 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 12:07:17 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 12:07:17 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 12:07:17 -0500
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:07:26 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w+SItvA9ATvieFuwbhj9GpmZof+0I/hUzef9yqSRL4n+xCFQVfC7EIgURprMBo+TF3C5qKOyi16q5dNMlLbpTg==", "location"=>{"city"=>"New York", "state"=>"NY"}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 297ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:07:27 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 432ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:07:51 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lrV+o6q+Oqd1KAPcbS91UFiFzmLJvnUuJ8Eg4TuqlRarlddFD3OAjB9EHvbPMQfZ1mzWNd4vBiRAww5nC41T0Q==", "location"=>{"city"=>"Minsk", "state"=>"Belarus"}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 243ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:07:51 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 971ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:08:50 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 423ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 12:08:51 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 12:08:51 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 12:08:51 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 12:08:51 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:08:51 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 12:08:51 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 12:08:51 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 12:08:51 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 12:08:51 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:08:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:08:51 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:08:51 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 12:08:51 -0500
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:09:42 -0500
+Processing by HomeController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GeBciN0poJJRkgpE0Fe9BLdGnLeOJwHLJyeih9KR8Z0kwPVueOQauTv+F25ySc+NOa+E4Jm2csFAJYwB4rY3Wg==", "location"=>{"city"=>"Minsk", "state"=>"Belarus"}, "commit"=>"Search"}
+  Rendered home/new.html.erb within layouts/application (19.2ms)
+Completed 500 Internal Server Error in 812ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (No route matches {:action=>"search", :controller=>"home"}):
+    79: 	    
+    80: 	    </div>
+    81: 
+    82: 	    <%=form_for @new_location, url: {action: :search} do |f|%>
+    83: 			<%=f.label :city, "City" %>
+    84: 			<%=f.text_field :city %>
+    85: 			<%=f.label :state, "State or Country" %>
+  app/views/home/new.html.erb:82:in `_app_views_home_new_html_erb__1276261392060821021_70310806689820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (61.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (112.0ms)
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:10:14 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GeBciN0poJJRkgpE0Fe9BLdGnLeOJwHLJyeih9KR8Z0kwPVueOQauTv+F25ySc+NOa+E4Jm2csFAJYwB4rY3Wg==", "location"=>{"city"=>"Minsk", "state"=>"Belarus"}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 595ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:10:14 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 820ms (Views: 94.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 12:10:15 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 12:10:15 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 12:10:15 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 12:10:15 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:10:15 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 12:10:15 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:10:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:10:15 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:10:15 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 12:10:15 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 12:10:15 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 12:10:15 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 12:10:15 -0500
+
+
+Started GET "/assets/cloud.jpg" for ::1 at 2015-11-20 12:10:16 -0500
+  [1m[36mLocation Load (3.6ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+  [1m[35mLocation Load (0.2ms)[0m  SELECT "locations".* FROM "locations"
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:14:09 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YqosMIkymrZAyRzj6NlrB2xGRolNbZuLPtPzqx50c0VfioXWLP8gnSqlAclKxxmO4q9e3lr86IFZ0d0tLlO1gg==", "location"=>{"city"=>"Minsk", "state"=>"Belarus"}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 779ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:14:11 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (362.7ms)
+Completed 200 OK in 1284ms (Views: 916.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:14:23 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SN7P5YeXYAHEx6J4sw7iK5YXkmxpeciZ+6W2k46+ENt1/mYDIlraKq6rv1IREJCiGP6KO37ou5Ocp5gVvpnWHA==", "location"=>{"city"=>"Minsk", "state"=>"Belarus"}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 625ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:14:23 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 552ms (Views: 138.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:16:39 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4dMSQmWEsO6nSLT2n5S7pbx1pApNRihCFcSDCZD31sfc87ukwEkKxc0kqdw9isksMpy8XVrXW0hyxq2PoNAQAA==", "location"=>{"city"=>"Minsk", "state"=>"Belarus"}, "commit"=>"Search"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.5ms)
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/home_controller.rb:19:in `search'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (144.4ms)
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:18:01 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4dMSQmWEsO6nSLT2n5S7pbx1pApNRihCFcSDCZD31sfc87ukwEkKxc0kqdw9isksMpy8XVrXW0hyxq2PoNAQAA==", "location"=>{"city"=>"Minsk", "state"=>"Belarus"}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 577ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:18:02 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 834ms (Views: 83.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 12:18:03 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 12:18:03 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:18:03 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 12:18:03 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 12:18:03 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:18:03 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 12:18:03 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:18:03 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:18:03 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 12:18:03 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 12:18:03 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 12:18:03 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 12:18:03 -0500
+
+
+Started GET "/assets/cloud.jpg" for ::1 at 2015-11-20 12:18:03 -0500
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:18:12 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ILvPRCfi+3LC8JUw/ZyEIA0wHJ2Pcuei1l/pj6aqMpwdm2aigi9BWaiciBpfgvapg9kEypjjlKixXccJlo30Ww==", "location"=>{"city"=>"New York", "state"=>"NY"}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 217ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:18:12 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 543ms (Views: 98.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:21:45 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (162.5ms)
+Completed 200 OK in 649ms (Views: 308.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 12:21:46 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 12:21:47 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 12:21:47 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 12:21:47 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 12:21:47 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:21:47 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:21:47 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:21:47 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:21:47 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 12:21:47 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 12:21:47 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 12:21:47 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 12:21:47 -0500
+
+
+Started GET "/assets/cloud.jpg" for ::1 at 2015-11-20 12:21:47 -0500
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:22:17 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qldoyhikNuuqf/6CZv52R+pqJsP3tJpf84tsJ/6hz5uXd8EsvWmMwMAT46jE4ATOZIM+lOAl6VWUiUKhzoYJXA==", "location"=>{"city"=>"Minsk", "state"=>"Belarus"}, "commit"=>"Search"}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.5ms)
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/home_controller.rb:19:in `search'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (54.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (141.7ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:22:57 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (136.3ms)
+Completed 200 OK in 1187ms (Views: 342.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 12:22:59 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 12:22:59 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 12:22:59 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 12:22:59 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 12:22:59 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:22:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:22:59 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:22:59 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:22:59 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 12:22:59 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 12:22:59 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 12:22:59 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 12:22:59 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:29:37 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (179.6ms)
+Completed 200 OK in 1776ms (Views: 671.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 12:29:39 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 12:29:39 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 12:29:39 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 12:29:39 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:29:40 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 12:29:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:29:40 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:29:40 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 12:29:40 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 12:29:40 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 12:29:40 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:29:40 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 12:29:40 -0500
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:29:46 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iIjp46G3KmH5WdTWVHoHUAP2KuyrjZSRq+E4NHc5Z4a1qEAFBHqQSpM1yfz2ZHXZjR8yu7wc55vM4xayRx6hQQ==", "location"=>{"city"=>"Minsk", "state"=>"Belarus"}, "commit"=>"Search"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/home_controller.rb:19:in `search'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (96.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (104.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (215.1ms)
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:37:08 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iIjp46G3KmH5WdTWVHoHUAP2KuyrjZSRq+E4NHc5Z4a1qEAFBHqQSpM1yfz2ZHXZjR8yu7wc55vM4xayRx6hQQ==", "location"=>{"city"=>"Minsk", "state"=>"Belarus"}, "commit"=>"Search"}
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 1.2ms)
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/home_controller.rb:21:in `search'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (46.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (113.7ms)
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:38:07 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iIjp46G3KmH5WdTWVHoHUAP2KuyrjZSRq+E4NHc5Z4a1qEAFBHqQSpM1yfz2ZHXZjR8yu7wc55vM4xayRx6hQQ==", "location"=>{"city"=>"Minsk", "state"=>"Belarus"}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 283ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:38:07 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 955ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 12:38:08 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 12:38:08 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 12:38:08 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 12:38:08 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 12:38:08 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:38:08 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 12:38:08 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:38:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:38:08 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:38:08 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 12:38:08 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 12:38:08 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 12:38:08 -0500
+
+
+Started GET "/assets/cloud.jpg" for ::1 at 2015-11-20 12:38:08 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:40:44 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 1131ms (Views: 101.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 12:40:45 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 12:40:45 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 12:40:45 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 12:40:45 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 12:40:45 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:40:45 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:40:45 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:40:45 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 12:40:45 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:40:45 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 12:40:45 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 12:40:45 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 12:40:45 -0500
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:40:50 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c/W8Df4zYB8qTsQ7W5RQLs1FoJbF7r5YedN8MKUV1+JO1RXrW/7aNEAi2RH5iiKnQ6y4wdJ/zVIe0VK2lTIRJQ==", "location"=>{"city"=>"Minsk", "state"=>"Belarus"}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 247ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:40:50 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 355ms (Views: 86.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:45:42 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1193ms (Views: 91.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 12:45:44 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 12:45:44 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:45:44 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 12:45:44 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 12:45:44 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 12:45:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:45:44 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:45:44 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:45:44 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 12:45:44 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 12:45:44 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 12:45:44 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 12:45:44 -0500
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:45:51 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D0psvjHQjeqaZr6eBkI5NDHb1lC49iVJWcEYI8bKCtYyasVYlB03wfAKo7SkXEu9vzLOB69nVkM+wzal9u3MEQ==", "location"=>{"city"=>"Minsk", "state"=>""}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:45:51 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 1035ms (Views: 87.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:46:06 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbqgF0mxRO35/axcab2CO3NrszFkEg3TEN45roH0zaS4mgnx7Hz+xpORsXbLo/Cy/YKrZnODftl33BcosdMLYw==", "location"=>{"city"=>"Jersey City", "state"=>"NJ"}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:46:06 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 914ms (Views: 85.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:46:08 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nN4VYTNux90GsCLKRSfic1fbyKzFqQS8Hy7Sh/P54sWh/ryHlqN99mzcP+DnOZD62TLQ+9I4d7Z4LPwBw94kAg==", "location"=>{"city"=>"", "state"=>""}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:46:08 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 392ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:47:00 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 392ms (Views: 85.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 12:47:01 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 12:47:01 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 12:47:01 -0500
+
+
+Started GET "/assets/application.self-279d621a9906cb2a67511053d320299e861405e89192dff50019e6ad81195643.css?body=1" for ::1 at 2015-11-20 12:47:01 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:47:01 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 12:47:01 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:47:01 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:47:01 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:47:01 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 12:47:01 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 12:47:01 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 12:47:01 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 12:47:01 -0500
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:47:08 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9pk+53P+yhaiKj+xACoKWIOv3g/Z1RMjI/U6gX2qoxzLuZcB1jNwPchGIpuiNHjRDUbGWM5EYClE9xQHTY1l2w==", "location"=>{"city"=>"Jersey City", "state"=>"NJ"}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:47:08 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 1546ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:48:07 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 910ms (Views: 532.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 12:48:08 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 12:48:08 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 12:48:08 -0500
+
+
+Started GET "/assets/application.self-7d919933df839859fee921cb5a7b738e7eeaee16482615d94391115863c1e4f0.css?body=1" for ::1 at 2015-11-20 12:48:08 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:48:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:48:08 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 12:48:08 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:48:08 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:48:08 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 12:48:08 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 12:48:08 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 12:48:08 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 12:48:08 -0500
+
+
+Started GET "/assets/cloud.jpg" for ::1 at 2015-11-20 12:48:08 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:48:23 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 742ms (Views: 408.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 12:48:23 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 12:48:23 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 12:48:23 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 12:48:23 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:48:23 -0500
+
+
+Started GET "/assets/application.self-fbaf8ecd5f41055305c6a69948a4016addfffeea7a178a956b04e63c8345d5ce.css?body=1" for ::1 at 2015-11-20 12:48:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:48:24 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:48:24 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:48:24 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 12:48:24 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 12:48:24 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 12:48:24 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 12:48:24 -0500
+
+
+Started GET "/assets/cloud.jpg" for ::1 at 2015-11-20 12:48:24 -0500
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:48:34 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RULwjOCvmskVRlTrVfgcR5se1vpwMP/iB6TxxDx45DR4YllqRWIg4n8qScH35m7OFffOrWehjOhgpt9CDF8i8w==", "location"=>{"city"=>"Jersey City", "state"=>"NJ"}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:48:34 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 687ms (Views: 95.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:51:12 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (85.8ms)
+Completed 200 OK in 874ms (Views: 160.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 12:51:12 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 12:51:12 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 12:51:12 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 12:51:13 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:51:13 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:51:13 -0500
+
+
+Started GET "/assets/application.self-fbaf8ecd5f41055305c6a69948a4016addfffeea7a178a956b04e63c8345d5ce.css?body=1" for ::1 at 2015-11-20 12:51:13 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:51:13 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:51:13 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 12:51:13 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 12:51:13 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 12:51:13 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 12:51:13 -0500
+
+
+Started POST "/search" for ::1 at 2015-11-20 12:51:20 -0500
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"luLtyn+xQniKeTB4vAasPnr5VYg+QPRbxwF+yhwmtNCrwkQs2nz4U+AVLVIeGN639BBN3ynRh1GgA1BMLAFyFw==", "location"=>{"city"=>"Jersey City", "state"=>"NJ"}, "commit"=>"Search"}
+Redirected to http://localhost:3000/home/new
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:51:20 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 513ms (Views: 101.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:52:32 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (11.3ms)
+Completed 500 Internal Server Error in 416ms (ActiveRecord: 0.7ms)
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4: <div id="textMain">Rain <span>or Shine</span></div>
+    5: <div id="subTextWeather">
+    6:  
+    7: 	    <div id="location"><%= @weather["current_observation"]["display_location"]["full"]%></div></br>
+    8: 	    <div id="time"><%=@weather["current_observation"]["observation_time"]%> Local Time</div>
+    9: 
+   10: 	    
+  app/views/home/new.html.erb:7:in `_app_views_home_new_html_erb___2025620275658953492_70240486009100'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (64.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (46.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (119.5ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 12:58:08 -0500
+Processing by HomeController#new as HTML
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: location):
+  app/controllers/home_controller.rb:22:in `location_params'
+  app/controllers/home_controller.rb:6:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (59.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (113.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 13:00:08 -0500
+Processing by HomeController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `city' for nil:NilClass):
+  app/controllers/home_controller.rb:13:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (4.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (52.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (115.0ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 13:00:53 -0500
+Processing by HomeController#new as HTML
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: location):
+  app/controllers/home_controller.rb:22:in `location_params'
+  app/controllers/home_controller.rb:12:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (63.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (113.7ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 13:01:10 -0500
+Processing by HomeController#new as HTML
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: location):
+  app/controllers/home_controller.rb:22:in `location_params'
+  app/controllers/home_controller.rb:12:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (51.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (112.5ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 13:01:43 -0500
+Processing by HomeController#new as HTML
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: location):
+  app/controllers/home_controller.rb:22:in `location_params'
+  app/controllers/home_controller.rb:6:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (59.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (113.9ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 13:02:25 -0500
+Processing by HomeController#new as HTML
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: location):
+  app/controllers/home_controller.rb:23:in `location_params'
+  app/controllers/home_controller.rb:7:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (112.6ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 13:03:01 -0500
+Processing by HomeController#new as HTML
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: location):
+  app/controllers/home_controller.rb:23:in `location_params'
+  app/controllers/home_controller.rb:13:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (51.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (108.2ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 13:03:58 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (97.2ms)
+Completed 500 Internal Server Error in 933ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4: <div id="textMain">Rain <span>or Shine</span></div>
+    5: <div id="subTextWeather">
+    6:  
+    7: 	    <div id="location"><%= @weather["current_observation"]["display_location"]["full"]%></div></br>
+    8: 	    <div id="time"><%=@weather["current_observation"]["observation_time"]%> Local Time</div>
+    9: 
+   10: 	    
+  app/views/home/new.html.erb:7:in `_app_views_home_new_html_erb___2025620275658953492_70240444278540'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (50.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (107.4ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 13:04:52 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (447.9ms)
+Completed 200 OK in 3268ms (Views: 2182.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 13:04:56 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 13:04:56 -0500
+
+
+Started GET "/assets/application.self-fbaf8ecd5f41055305c6a69948a4016addfffeea7a178a956b04e63c8345d5ce.css?body=1" for ::1 at 2015-11-20 13:04:56 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 13:04:56 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 13:04:56 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 13:04:56 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 13:04:57 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 13:04:57 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 13:04:57 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 13:04:57 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 13:04:57 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 13:04:57 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 13:04:57 -0500
+
+
+Started GET "/home/new?utf8=%E2%9C%93&location%5Bcity%5D=Jersey+City&location%5Bstate%5D=NJ&commit=Search" for ::1 at 2015-11-20 13:05:06 -0500
+Processing by HomeController#new as HTML
+  Parameters: {"utf8"=>"✓", "location"=>{"city"=>"Jersey City", "state"=>"NJ"}, "commit"=>"Search"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.wunderground.com/api/ed4b5bf53486878a/geolookup/conditions/q/Jersey City/NJ.json):
+  app/controllers/home_controller.rb:17:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (107.3ms)
+
+
+Started GET "/home/new?utf8=%E2%9C%93&location%5Bcity%5D=Jersey+City&location%5Bstate%5D=NJ&commit=Search" for ::1 at 2015-11-20 13:05:53 -0500
+Processing by HomeController#new as HTML
+  Parameters: {"utf8"=>"✓", "location"=>{"city"=>"Jersey City", "state"=>"NJ"}, "commit"=>"Search"}
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.5ms)
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.wunderground.com/api/ed4b5bf53486878a/geolookup/conditions/q/NJ/Jersey City.json):
+  app/controllers/home_controller.rb:17:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (151.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (274.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (436.3ms)
+
+
+Started GET "/home/new?utf8=%E2%9C%93&location%5Bcity%5D=Jersey+City&location%5Bstate%5D=NJ&commit=Search" for ::1 at 2015-11-20 13:10:02 -0500
+Processing by HomeController#new as HTML
+  Parameters: {"utf8"=>"✓", "location"=>{"city"=>"Jersey City", "state"=>"NJ"}, "commit"=>"Search"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.5ms)
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/home_controller.rb:16:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (51.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (124.7ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 13:11:04 -0500
+
+SyntaxError (/Users/taomaxim/Desktop/homework/weather_app/app/controllers/home_controller.rb:16: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+	    	@location_new=@location.state+"/"+@location.city.gsub! ' ', ''
+	    	                                                        ^
+/Users/taomaxim/Desktop/homework/weather_app/app/controllers/home_controller.rb:16: syntax error, unexpected ',', expecting keyword_end
+	    	@location_new=@location.state+"/"+@location.city.gsub! ' ', ''
+	    	                                                           ^):
+  app/controllers/home_controller.rb:16: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+  app/controllers/home_controller.rb:16: syntax error, unexpected ',', expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (50.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (109.8ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 13:11:27 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (233.2ms)
+Completed 200 OK in 1712ms (Views: 766.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 13:11:28 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 13:11:28 -0500
+
+
+Started GET "/assets/application.self-fbaf8ecd5f41055305c6a69948a4016addfffeea7a178a956b04e63c8345d5ce.css?body=1" for ::1 at 2015-11-20 13:11:28 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 13:11:28 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 13:11:28 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 13:11:28 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 13:11:28 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 13:11:29 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 13:11:29 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 13:11:29 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 13:11:29 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 13:11:29 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 13:11:29 -0500
+
+
+Started GET "/home/new?utf8=%E2%9C%93&location%5Bcity%5D=Jersey+City&location%5Bstate%5D=NJ&commit=Search" for ::1 at 2015-11-20 13:11:37 -0500
+Processing by HomeController#new as HTML
+  Parameters: {"utf8"=>"✓", "location"=>{"city"=>"Jersey City", "state"=>"NJ"}, "commit"=>"Search"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/home_controller.rb:16:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (52.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (114.8ms)
+
+
+Started GET "/home/new?utf8=%E2%9C%93&location%5Bcity%5D=Jersey+City&location%5Bstate%5D=NJ&commit=Search" for ::1 at 2015-11-20 13:14:30 -0500
+Processing by HomeController#new as HTML
+  Parameters: {"utf8"=>"✓", "location"=>{"city"=>"Jersey City", "state"=>"NJ"}, "commit"=>"Search"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.5ms)
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.wunderground.com/api/ed4b5bf53486878a/geolookup/conditions/q/NJ/Jersey City.json):
+  app/controllers/home_controller.rb:19:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (50.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (109.6ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 13:14:33 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 781ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 13:14:34 -0500
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 13:14:34 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 13:14:34 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 13:14:34 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 13:14:34 -0500
+
+
+Started GET "/assets/application.self-fbaf8ecd5f41055305c6a69948a4016addfffeea7a178a956b04e63c8345d5ce.css?body=1" for ::1 at 2015-11-20 13:14:34 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 13:14:34 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 13:14:34 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 13:14:34 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 13:14:34 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 13:14:34 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 13:14:34 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 13:14:34 -0500
+
+
+Started GET "/home/new?utf8=%E2%9C%93&location%5Bcity%5D=JerseyCity&location%5Bstate%5D=NJ&commit=Search" for ::1 at 2015-11-20 13:14:43 -0500
+Processing by HomeController#new as HTML
+  Parameters: {"utf8"=>"✓", "location"=>{"city"=>"JerseyCity", "state"=>"NJ"}, "commit"=>"Search"}
+  Rendered home/new.html.erb within layouts/application (10.2ms)
+Completed 500 Internal Server Error in 554ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4: <div id="textMain">Rain <span>or Shine</span></div>
+    5: <div id="subTextWeather">
+    6:  
+    7: 	    <div id="location"><%= @weather["current_observation"]["display_location"]["full"]%></div></br>
+    8: 	    <div id="time"><%=@weather["current_observation"]["observation_time"]%> Local Time</div>
+    9: 
+   10: 	    
+  app/views/home/new.html.erb:7:in `_app_views_home_new_html_erb___2025620275658953492_70240444278540'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (70.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (109.5ms)
+
+
+Started GET "/home/new" for ::1 at 2015-11-20 13:14:48 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 478ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/weather-icons-wind.self-837cc5bb875c06f8d007c133a5332bbbeb6b91a2f15620e30d1e320fb5dfbca2.css?body=1" for ::1 at 2015-11-20 13:14:48 -0500
+
+
+Started GET "/assets/weather-icons-wind.min.self-65de6e98b14028e6207193040f437ebadf38287da469bd122b744e23c5db989f.css?body=1" for ::1 at 2015-11-20 13:14:48 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 13:14:48 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 13:14:48 -0500
+
+
+Started GET "/assets/weather-icons.self-ab168c68a75fe382b7175eba8922c16dc5e664fc83f957cf726e39d529edc44d.css?body=1" for ::1 at 2015-11-20 13:14:48 -0500
+
+
+Started GET "/assets/application.self-fbaf8ecd5f41055305c6a69948a4016addfffeea7a178a956b04e63c8345d5ce.css?body=1" for ::1 at 2015-11-20 13:14:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 13:14:49 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 13:14:49 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 13:14:49 -0500
+
+
+Started GET "/assets/main.self-4a45dc98dc6e13f580e837f39987cdde7e0d4c456ab710a158385fac066b275b.js?body=1" for ::1 at 2015-11-20 13:14:49 -0500
+
+
+Started GET "/assets/rain.self-99234329dbe2b65740e42b58dcf6ef21b44bfefac0a9d56040d2427ad7fc00a2.js?body=1" for ::1 at 2015-11-20 13:14:49 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-20 13:14:49 -0500
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-20 13:14:49 -0500
+
+
+Started GET "/home/new?utf8=%E2%9C%93&location%5Bcity%5D=Jersey_City&location%5Bstate%5D=NJ&commit=Search" for ::1 at 2015-11-20 13:14:58 -0500
+Processing by HomeController#new as HTML
+  Parameters: {"utf8"=>"✓", "location"=>{"city"=>"Jersey_City", "state"=>"NJ"}, "commit"=>"Search"}
+  Rendered home/new.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 441ms (Views: 94.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new?utf8=%E2%9C%93&location%5Bcity%5D=Brooklyn&location%5Bstate%5D=NY&commit=Search" for ::1 at 2015-11-20 13:15:29 -0500
+Processing by HomeController#new as HTML
+  Parameters: {"utf8"=>"✓", "location"=>{"city"=>"Brooklyn", "state"=>"NY"}, "commit"=>"Search"}
+  Rendered home/new.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 416ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new?utf8=%E2%9C%93&location%5Bcity%5D=Jersey+City&location%5Bstate%5D=NJ&commit=Search" for ::1 at 2015-11-20 13:15:44 -0500
+Processing by HomeController#new as HTML
+  Parameters: {"utf8"=>"✓", "location"=>{"city"=>"Jersey City", "state"=>"NJ"}, "commit"=>"Search"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.wunderground.com/api/ed4b5bf53486878a/geolookup/conditions/q/NJ/Jersey City.json):
+  app/controllers/home_controller.rb:19:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (50.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (111.6ms)

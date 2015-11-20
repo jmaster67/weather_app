@@ -130,7 +130,7 @@ h1 {
 
 #subTextWeather {
   position: absolute;
-  margin-top: 23%;
+  margin-top: 30%;
   margin-left:50%;
   /*top: 18vh;
   left: 10vh;*/
@@ -691,6 +691,11 @@ button.frontButton {
 #weather_icons {
 
   z-index: 1;
+}
+#time {
+  font-size: 1.5vw;
+ text-align: center;
+ z-index: 2;
 }
 
 #temp {

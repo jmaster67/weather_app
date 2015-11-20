@@ -5,6 +5,7 @@
 <div id="subTextWeather">
  
 	    <div id="location"><%= @weather["current_observation"]["display_location"]["full"]%></div></br>
+	    <div id="time"><%=@weather["current_observation"]["observation_time"]%> Local Time</div>
 
 	    
 	    <div id="center">
@@ -74,11 +75,24 @@
 
 		<span id="temp"><%= @weather["current_observation"]["temp_f"]%>°F</span><br>
 
-		Humidity: <%= @weather["current_observation"]["relative_humidity"]%><br>
-	    <%= @weather["current_observation"]["weather"]%><br>
+		<%= @weather["current_observation"]["weather"]%>, Humidity: <%= @weather["current_observation"]["relative_humidity"]%>
+	    
 	    </div>
 
-	    <p> <%= @time %></p>
+	    <%=form_for @new_location, url: {action: :new}, method: :get do |f|%>
+			<%=f.label :city, "City" %>
+			<%=f.text_field :city %>
+			<%=f.label :state, "State or Country" %>
+			<%=f.text_field :state %>
+			<%=f.submit ("Search")%>
+		<%end%>
+
+	    <!-- <form class="searchform cf">
+		  <input type="text" placeholder="City,State - or - City,Country">
+		  <button type="submit">Search</button>
+		</form>
+ -->
+	    
 	   
 </div>
 
