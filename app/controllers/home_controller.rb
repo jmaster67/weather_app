@@ -3,7 +3,7 @@ class HomeController < ApplicationController
 	end
 
 	def new
-		puts params[:location]
+		
 		if params[:location].nil?
 			@results=HTTParty.get('http://ip-api.com/json')
 	    # @location="lat="+@results["lat"].to_s+"&lon="+@results["lon"].to_s
@@ -14,6 +14,7 @@ class HomeController < ApplicationController
 	    	# @location.city=@location.city.gsub! ' ', ''
 	    	# @location.state=@location.state.gsub! ' ', ''
 	    	@location_new=@location.state+"/"+@location.city
+	    	@location_new.gsub!(" ","_")
 	    end
 	    @weather_url = "http://api.wunderground.com/api/ed4b5bf53486878a/geolookup/conditions/q/#{@location_new}.json"
     	@weather = HTTParty.get(@weather_url)
