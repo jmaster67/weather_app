@@ -10,6 +10,8 @@ class HomeController < ApplicationController
 	    
 	    @weather_url = "http://api.wunderground.com/api/ed4b5bf53486878a/geolookup/conditions/q/#{@location}.json"
     	@weather = HTTParty.get(@weather_url)
+    	@time = Time.new.strftime(" %A %B-%d-%Y %H:%M:%S:%p")
+    	
     end
 end
 # ed4b5bf53486878a
