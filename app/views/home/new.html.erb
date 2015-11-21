@@ -76,7 +76,7 @@
 
 		<%= @weather["current_observation"]["weather"]%>, Humidity: <%= @weather["current_observation"]["relative_humidity"]%><br><br>
 
-		<div class="search">Search Another Location:</div>
+		<div id="search">Search Another Location:</div>
 
 	    
 	    </div>
@@ -87,7 +87,7 @@
 			
 			<%=f.text_field :city, :placeholder => "City" %>
 			<%=f.text_field :state , :placeholder => "State or Country"%>
-			<%=f.submit ("Search")%>
+			<%=f.submit :Submit, class: 'searchbutton'%>
 		<%end%>
  
 </div>
