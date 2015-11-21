@@ -10,6 +10,8 @@
 	    
 	    <div id="center">
 
+	    <!-- cloudy -->	
+
 	    <% if @weather["current_observation"]["icon"] == "cloudy" || 
     		@weather["current_observation"]["icon"] == "partlycloudy" || 
     		@weather["current_observation"]["icon"] == "mostlycloudy"%>
@@ -24,17 +26,13 @@
 	    	@weather["current_observation"]["icon"] == "clear" %>
        		<span id="weather_icons"><%= image_tag "sunny-icon.png" %></span>
        	<%end%>
-	    
 
-		<!-- sleet / freezing rain -->
-
-	​
-		<% if @weather["current_observation"]["icon"] == "chancesleet" || 
-			@weather["current_observation"]["icon"] == "sleet" || 
-			@weather["current_observation"]["icon"] == "freezingrain" %>
-		    <span id="weather_icons"><%= image_tag "sleet-icon.png" %></span>
+		<!-- rain -->
+		​
+		<% if @weather["current_observation"]["icon"] == "rain" || 
+			@weather["current_observation"]["icon"] == "chancerain" %>
+		    <span id="weather_icons"><%= image_tag "rain-icon.png" %></span>
 		<%end%>
-
 		​
 		<!-- thuderstorm -->
 
@@ -64,36 +62,34 @@
 		    <span id="weather_icons"><%= image_tag "fog-icon.png" %></span>
 		<%end%>
 
-		​
-		<!-- rain -->
 
-		​
-		<% if @weather["current_observation"]["icon"] == "rain" || 
-			@weather["current_observation"]["icon"] == "chancerain" %>
-		    <span id="weather_icons"><%= image_tag "rain-icon.png" %></span>
+		<!-- sleet / freezing rain -->
+
+	​
+		<% if @weather["current_observation"]["icon"] == "chancesleet" || 
+			@weather["current_observation"]["icon"] == "sleet" || 
+			@weather["current_observation"]["icon"] == "freezingrain" %>
+		    <span id="weather_icons"><%= image_tag "sleet-icon.png" %></span>
 		<%end%>
 
 		<span id="temp"><%= @weather["current_observation"]["temp_f"]%>°F</span><br>
 
-		<%= @weather["current_observation"]["weather"]%>, Humidity: <%= @weather["current_observation"]["relative_humidity"]%>
+		<%= @weather["current_observation"]["weather"]%>, Humidity: <%= @weather["current_observation"]["relative_humidity"]%><br><br>
+
+		<div class="search">Search Another Location:</div>
+
 	    
 	    </div>
 
+
+
 	    <%=form_for @new_location, url: {action: :new}, method: :get do |f|%>
-			<%=f.label :city, "City" %>
-			<%=f.text_field :city %>
-			<%=f.label :state, "State or Country" %>
-			<%=f.text_field :state %>
+			
+			<%=f.text_field :city, :placeholder => "City" %>
+			<%=f.text_field :state , :placeholder => "State or Country"%>
 			<%=f.submit ("Search")%>
 		<%end%>
-
-	    <!-- <form class="searchform cf">
-		  <input type="text" placeholder="City,State - or - City,Country">
-		  <button type="submit">Search</button>
-		</form>
- -->
-	    
-	   
+ 
 </div>
 
 
