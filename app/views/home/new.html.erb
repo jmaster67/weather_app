@@ -1,113 +1,96 @@
 <%= javascript_include_tag "main" %>
 
-<div id="blackMain"></div>
+<div id="newPage"></div>
 <div id="textMain">Rain <span>or Shine</span></div>
 <div id="subTextWeather">
  
 	    <div id="location"><%= @weather["current_observation"]["display_location"]["full"]%></div></br>
 	    <div id="time"><%=@weather["current_observation"]["observation_time"]%> Local Time</div>
-
-	    
 	    <div id="center">
 
-	    <!-- cloudy -->	
+	    	<!-- Assign weather icons based on the weather API tag -->
 
-	    <% if @weather["current_observation"]["icon"] == "cloudy" || 
-    		@weather["current_observation"]["icon"] == "partlycloudy" || 
-    		@weather["current_observation"]["icon"] == "mostlycloudy"%>
-      		<span id="weather_icons"><%= image_tag "cloudy-icon.png" %></span>
-      	<%end%>
+		    <!-- clouds -->	
 
-	    <!-- sunny -->
+		    <% if @weather["current_observation"]["icon"] == "cloudy" || 
+	    		@weather["current_observation"]["icon"] == "partlycloudy" || 
+	    		@weather["current_observation"]["icon"] == "mostlycloudy"%>
+	      		<span id="weather_icons"><%= image_tag "cloudy-icon.png", :class => "img_cloudy" %></span>
+	      	<%end%>
 
-	    <% if @weather["current_observation"]["icon"] == "sunny" || 
-	    	@weather["current_observation"]["icon"] == "mostlysunny" ||  
-	    	@weather["current_observation"]["icon"] == "partlysunny" || 
-	    	@weather["current_observation"]["icon"] == "clear" %>
-       		<span id="weather_icons"><%= image_tag "sunny-icon.png" %></span>
-       	<%end%>
+		    <!-- sunny -->
 
-		<!-- rain -->
+		    <% if @weather["current_observation"]["icon"] == "sunny" || 
+		    	@weather["current_observation"]["icon"] == "mostlysunny" ||  
+		    	@weather["current_observation"]["icon"] == "partlysunny" || 
+		    	@weather["current_observation"]["icon"] == "clear" %>
+	       		<span id="weather_icons"><%= image_tag "sunny-icon.png", :class => "img_sunny" %></span>
+	       	<%end%>
+
+			<!-- rain -->
+			​
+			<% if @weather["current_observation"]["icon"] == "rain" || 
+				@weather["current_observation"]["icon"] == "chancerain" %>
+			    <span id="weather_icons"><%= image_tag "rain-icon.png", :class => "img_rain" %></span>
+			<%end%>
+			​
+			<!-- thuderstorm -->
+
+			​
+			<% if @weather["current_observation"]["icon"] == "tstorms" || 
+				@weather["current_observation"]["icon"] == "chancetstorms" %>
+			    <span id="weather_icons"><%= image_tag "thunderstorm-icon.png", :class => "img_thunderstorm" %></span>
+			<%end%>
+
+			​ 
+			<!-- snow -->
+
+			​
+			<% if @weather["current_observation"]["icon"] == "flurries" || 
+				@weather["current_observation"]["icon"] == "chancesnow" || 
+				@weather["current_observation"]["icon"] == "snow" || 
+				@weather["current_observation"]["icon"] == "chanceflurries" %>
+			    <span id="weather_icons"><%= image_tag "snow-icon.png", :class => "img_snow" %></span>
+			<%end%>
+
+			​
+			<!-- fog/hazy -->
+
+			​
+			<% if @weather["current_observation"]["icon"] == "fog" || 
+				@weather["current_observation"]["icon"] == "hazy" %>
+			    <span id="weather_icons"><%= image_tag "fog-icon.png", :class => "img_fog" %></span>
+			<%end%>
+
+
+			<!-- sleet / freezing rain -->
+
 		​
-		<% if @weather["current_observation"]["icon"] == "rain" || 
-			@weather["current_observation"]["icon"] == "chancerain" %>
-		    <span id="weather_icons"><%= image_tag "rain-icon.png" %></span>
-		<%end%>
-		​
-		<!-- thuderstorm -->
+			<% if @weather["current_observation"]["icon"] == "chancesleet" || 
+				@weather["current_observation"]["icon"] == "sleet" || 
+				@weather["current_observation"]["icon"] == "freezingrain" %>
+			    <span id="weather_icons"><%= image_tag "sleet-icon.png", :class => "img_sleet" %></span>
+			<%end%>
 
-		​
-		<% if @weather["current_observation"]["icon"] == "tstorms" || 
-			@weather["current_observation"]["icon"] == "chancetstorms" %>
-		    <span id="weather_icons"><%= image_tag "thunderstorm-icon.png" %></span>
-		<%end%>
+			<!-- Temperature -->
 
-		​ 
-		<!-- snow -->
+			<span id="temp"><%= @weather["current_observation"]["temp_f"]%>°F</span><br>
 
-		​
-		<% if @weather["current_observation"]["icon"] == "flurries" || 
-			@weather["current_observation"]["icon"] == "chancesnow" || 
-			@weather["current_observation"]["icon"] == "snow" || 
-			@weather["current_observation"]["icon"] == "chanceflurries" %>
-		    <span id="weather_icons"><%= image_tag "snow-icon.png" %></span>
-		<%end%>
+			<!-- Weather conditions, humidity -->
 
-		​
-		<!-- fog/hazy -->
+			<%= @weather["current_observation"]["weather"]%>, Humidity: <%= @weather["current_observation"]["relative_humidity"]%><br><br>
 
-		​
-		<% if @weather["current_observation"]["icon"] == "fog" || 
-			@weather["current_observation"]["icon"] == "hazy" %>
-		    <span id="weather_icons"><%= image_tag "fog-icon.png" %></span>
-		<%end%>
-
-
-		<!-- sleet / freezing rain -->
-
-	​
-		<% if @weather["current_observation"]["icon"] == "chancesleet" || 
-			@weather["current_observation"]["icon"] == "sleet" || 
-			@weather["current_observation"]["icon"] == "freezingrain" %>
-		    <span id="weather_icons"><%= image_tag "sleet-icon.png" %></span>
-		<%end%>
-
-		<span id="temp"><%= @weather["current_observation"]["temp_f"]%>°F</span><br>
-
-		<%= @weather["current_observation"]["weather"]%>, Humidity: <%= @weather["current_observation"]["relative_humidity"]%><br><br>
-
-		<div id="search">Search Another Location:</div>
+			<div id="search">Search Another Location:</div>
 
 	    
 	    </div>
 
-
+	    <!-- Form to search a different location -->
 
 	    <%=form_for @new_location, url: {action: :new}, method: :get do |f|%>
-			
 			<%=f.text_field :city, :placeholder => "City" %>
 			<%=f.text_field :state , :placeholder => "State or Country"%>
 			<%=f.submit :Submit, class: 'searchbutton'%>
 		<%end%>
  
 </div>
-
-
-
-	    	
-	    
-
-
-
-<!-- <div id="locationText">Tell us where you are located</div>
-
-<form class="searchform cf">
-  <input type="text" placeholder="City,State - or - City,Country">
-  <button type="submit">Search</button>
-</form> -->
-
- 
-    
- 
-
-

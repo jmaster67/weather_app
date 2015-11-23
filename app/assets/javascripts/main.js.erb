@@ -1,49 +1,51 @@
 $(document).ready(function(){
-	
-	// $(".rain, .pulse, .sun").show();
-	// $("#locationText").hide();
-	// $("form").hide();
-	// $("#buttonsAll").hide();
-	// $("#login-button").hide();
-
-	
-
 
 	$(".frontButton").on("click", function() {
-
-	  $(".rain, .pulse, .sun, .frontButton").hide();
-	 
-	  window.location.href = '/home/new';
+		$(".rain, .pulse, .sun, .frontButton").hide();
+		window.location.href = '/home/new';
 	});	
 
-	// $.getJSON("http://ip-api.com/json/?fields=lat,lon", function(data) {
- //            var table_body = "";
- //            $.each(data, function(k, v) {
- //                table_body += "<tr><td>" + k + "</td><td><b>" + v + "</b></td></tr>";
- //            });
- //            $("#GeoResults").html(table_body);
- //    });
+	// Sellection of background image based on icon being loaded to visually match the weather pattern
 	
-	// $("#weather_icons").attr("src", "<%= image_path('sunny-icon.png') %>").load(function() {  
- //        $("#black").css("background-image","url('sun-bgr.jpg')"); 
-	// });
-	// $('#myImage').prop('complete')
+	$(".img_cloudy").load(function() {
+		$("#newPage").css("background-image","url('<%= image_path('cloud-bgr.jpg') %>')");
+		}).each(function() {
+	  		if(this.complete) $(this).load();
+	});
 
+	$(".img_sunny").load(function() {
+		$("#newPage").css("background-image","url('<%= image_path('sun-bgr.jpg') %>')");
+		}).each(function() {
+	  		if(this.complete) $(this).load();
+	});
 
-	// var img = $("#weather_icons");
+	$(".img_rain").load(function() {
+		$("#newPage").css("background-image","url('<%= image_path('rain-bgr.jpg') %>')");
+		}).each(function() {
+	  		if(this.complete) $(this).load();
+	});
 
-	// if (img.prop('complete')) {
-	//     $("#weather_icons").attr("src", "<%= image_path('sunny-icon.png') %>").load(function() {  
- //        $("#black").css("background-image","url('sun-bgr.jpg')"); 
-        
-	//     });
-	// } else {
-	//     $("#weather_icons").attr("src", "<%= image_path('sunny-icon.png') %>").load(function() {  
- //        $("#black").css("background-image","url('sun-bgr.jpg')"); 
-	// });
-	// }
-    
+	$(".img_thunderstorm").load(function() {
+		$("#newPage").css("background-image","url('<%= image_path('thunderstorm-bgr.jpg') %>')");
+		}).each(function() {
+	  		if(this.complete) $(this).load();
+	});
 
-	// $('#container').imagesLoaded( function() {
+	$(".img_snow").load(function() {
+		$("#newPage").css("background-image","url('<%= image_path('snow-bgr.jpg') %>')");
+		}).each(function() {
+	  		if(this.complete) $(this).load();
+	}); 
 
+	$(".img_fog").load(function() {
+		$("#newPage").css("background-image","url('<%= image_path('fog-bgr.jpg') %>')");
+		}).each(function() {
+	  		if(this.complete) $(this).load();
+	});
+
+	$(".img_sleet").load(function() {
+		$("#newPage").css("background-image","url('<%= image_path('sleet-bgr.jpg') %>')");
+		}).each(function() {
+	  		if(this.complete) $(this).load();
+	});    	
 });

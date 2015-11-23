@@ -8,13 +8,8 @@ class HomeController < ApplicationController
 	    	@location_new=@results["zip"]
 	    else 
 	    	@location=Location.new location_params
-	    	# if @location.state=="" || @location.city=""
-	    	# 	@results=HTTParty.get('http://ip-api.com/json')
-	    	#     @location_new=@results["zip"]
-	    	# else
-	    		@location_new=@location.state+"/"+@location.city
-	    		@location_new.gsub!(" ","_")
-	    	# end	    	
+    		@location_new=@location.state+"/"+@location.city
+    		@location_new.gsub!(" ","_")	    	
 	    end
 	    @weather_url = "http://api.wunderground.com/api/ed4b5bf53486878a/geolookup/conditions/q/#{@location_new}.json"
     	@weather = HTTParty.get(@weather_url)
@@ -27,5 +22,3 @@ class HomeController < ApplicationController
      	params.require(:location).permit(:city, :state)
     end
 end
-# ed4b5bf53486878a
-# http://api.wunderground.com/api/ed4b5bf53486878a/geolookup/conditions/q/IA/Cedar_Rapids.json
