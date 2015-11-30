@@ -26842,3 +26842,61 @@ Started GET "/home/new" for ::1 at 2015-11-22 21:10:56 -0500
 Processing by HomeController#new as HTML
   Rendered home/new.html.erb within layouts/application (159.6ms)
 Completed 200 OK in 1680ms (Views: 309.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-23 11:55:53 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (411.3ms)
+Completed 200 OK in 2329ms (Views: 2313.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0a440d265f4cc1b1f68a2bc18d3e96015c4812fd022c3d13f61a8984632221a7.css?body=1" for ::1 at 2015-11-23 11:55:56 -0500
+
+
+Started GET "/assets/main.self-390dfe84d365249e028005ead697634c2eee567d0a7d429b809ab66018d0f043.js?body=1" for ::1 at 2015-11-23 11:55:56 -0500
+
+
+Started GET "/assets/rain.self-6f8edd275c7352d39891bdea739373a3a8b0d0724bf9c2c690f435e39c847301.js?body=1" for ::1 at 2015-11-23 11:55:56 -0500
+
+
+Started GET "/assets/r-s2.jpg" for ::1 at 2015-11-23 11:55:57 -0500
+
+
+Started GET "/home/new" for ::1 at 2015-11-23 11:55:59 -0500
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (60.4ms)
+Completed 200 OK in 1165ms (Views: 130.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/cloudy-icon-502d0adf76efcb114dec050d892bd475bfc5343e0f5f6875a432811cf0119bac.png" for ::1 at 2015-11-23 11:56:00 -0500
+
+
+Started GET "/assets/cloud-bgr-68241c9a4c00a4449a18a19f75fbf50958bbbdff598a45f3677820f188f3275a.jpg" for ::1 at 2015-11-23 11:56:00 -0500
+
+
+Started GET "/home/new?utf8=%E2%9C%93&location%5Bcity%5D=huntington&location%5Bstate%5D=ny&commit=Submit" for ::1 at 2015-11-23 11:56:14 -0500
+Processing by HomeController#new as HTML
+  Parameters: {"utf8"=>"✓", "location"=>{"city"=>"huntington", "state"=>"ny"}, "commit"=>"Submit"}
+  Rendered home/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 1062ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sunny-icon-17fb5fa15b37d15449c8818244404d129a273aaa5070febade8c935761914af8.png" for ::1 at 2015-11-23 11:56:15 -0500
+
+
+Started GET "/assets/sun-bgr-5f6f15b89cf5acda1674fe175addacd3ee64e827c780703b70730ef8876742f5.jpg" for ::1 at 2015-11-23 11:56:15 -0500
+
+
+Started GET "/home/new?utf8=%E2%9C%93&location%5Bcity%5D=san+diego&location%5Bstate%5D=california&commit=Submit" for ::1 at 2015-11-23 11:56:30 -0500
+Processing by HomeController#new as HTML
+  Parameters: {"utf8"=>"✓", "location"=>{"city"=>"san diego", "state"=>"california"}, "commit"=>"Submit"}
+  Rendered home/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 839ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/new?utf8=%E2%9C%93&location%5Bcity%5D=phoenix&location%5Bstate%5D=arizona&commit=Submit" for ::1 at 2015-11-23 11:56:56 -0500
+Processing by HomeController#new as HTML
+  Parameters: {"utf8"=>"✓", "location"=>{"city"=>"phoenix", "state"=>"arizona"}, "commit"=>"Submit"}
+  Rendered home/new.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 1329ms (Views: 74.0ms | ActiveRecord: 0.0ms)
