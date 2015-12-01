@@ -31,9 +31,7 @@ h1 {
   left: 0;
   height: auto;
   width: 100%;
-  // background-image: url("r-s2.jpg");
-  // background-image: image-path("r-s2.jpg");
-  background-image: url(<%= image_tag 'r-s2.jpg' %>)
+  background-image: url("r-s2.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover; 
     -moz-background-size: cover;    
