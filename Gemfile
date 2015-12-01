@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-require 'forecast_io'
+
 
 
 gem 'rails', '4.2.4'
@@ -23,5 +23,9 @@ end
 group :development do
 gem 'web-console', '~> 2.0'
 gem 'spring'
+gem 'sqlite3'
 end
 
+group :production do         
+gem 'pg'   
+end
