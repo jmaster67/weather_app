@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.2.3'
 
 
 gem 'rails', '4.2.4'
@@ -14,6 +14,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.5.1'
 gem 'open-weather'
 gem 'devise'
 gem 'httparty'
+gem 'puma'
 
 
 group :development, :test do
@@ -23,7 +24,8 @@ gem 'sqlite3'
 end
 
 group :production do         
-gem 'pg'   
+gem 'pg'  
+gem 'rails_12factor' 
 end
 
 
