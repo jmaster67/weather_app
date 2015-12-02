@@ -15,6 +15,7 @@ gem 'open-weather'
 gem 'devise'
 gem 'httparty'
 gem 'puma'
+gem 'spring'
 
 
 group :development, :test do
@@ -26,7 +27,7 @@ end
 group :production do         
 gem 'pg'  
 gem 'rails_12factor' 
-gem 'spring'
+# gem 'spring'
 end
 
 
